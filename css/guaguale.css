@@ -1,0 +1,25 @@
+@charset "utf-8";
+.relative{
+	position: relative;
+}
+.canvas_box{
+	width: 320px;
+	height: 160px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left:-160px;
+	margin-top: -80px;
+	background-color: red;
+}
+.canvas_box .message{
+	text-align: center;
+	font-size: 36px;
+	color: #FFFFFF;
+	line-height: 160px;
+}
+.canvas_box .cover{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
